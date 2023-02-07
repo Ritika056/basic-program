@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+    int a=5,b=14; 
+    float c=9.4, d=25.6; 
+    printf("Values of integer variables: \n");
+    printf("%d\t %d \n", a,b);
+    printf("Values of floating variables: \n");
+    printf("%f \t%f", c, d);  
+}
