@@ -8,11 +8,11 @@ int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     int a=0,b=1,n,i,f;
     scanf("%d",&n);
-    printf("%d %d ",a,b);
-    for(i=1;i<=n;i++)
+   
+    for(i=0;i<n;i++)
     {
         f= a+b;
-        printf("%d ",f);
+        printf("%d ",a);
         a=b;
         b=f;
     }
